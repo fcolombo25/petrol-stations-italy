@@ -1,0 +1,15 @@
+[project]
+name = "petrol-station-italy"
+version = "0.1.0"
+description = "Map fuel prices within 15 km of an Italian municipality"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "branca>=0.8.2",
+    "folium>=0.20.0",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "requests>=2.34.2",
+    "streamlit>=1.65.0",
+    "streamlit-folium>=0.27.4",
+]
